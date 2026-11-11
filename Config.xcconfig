@@ -1,0 +1,10 @@
+// Config.xcconfig
+//
+// Committed on purpose: it contains NO secrets.
+// The app works without an API key (CoinGecko's public tier, lower rate limit).
+// To use your own CoinGecko demo key, copy Secrets.xcconfig.template to
+// Secrets.xcconfig (git-ignored) and paste the key there.
+
+COINGECKO_API_KEY =
+
+#include? "Secrets.xcconfig"
