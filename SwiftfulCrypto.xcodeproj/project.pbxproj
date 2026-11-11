@@ -6,10 +6,6 @@
 	objectVersion = 110;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		95CC12F3308D075A00D86876 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 95CC12F2308D075A00D86876 /* Config.xcconfig */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		95A8830B308652A60064A2E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -216,7 +212,6 @@
 		95A882FB3086529E0064A2E9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
-				95CC12F3308D075A00D86876 /* Config.xcconfig in Resources */,
 			);
 		};
 		95A88308308652A60064A2E9 /* Resources */ = {
@@ -265,6 +260,7 @@
 /* Begin XCBuildConfiguration section */
 		95A8831A308652A60064A2E9 /* Debug configuration for PBXProject "SwiftfulCrypto" */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95CC12F2308D075A00D86876 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -329,6 +325,7 @@
 		};
 		95A8831B308652A60064A2E9 /* Release configuration for PBXProject "SwiftfulCrypto" */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95CC12F2308D075A00D86876 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;

@@ -29,7 +29,7 @@ class MarketDataService {
         // Read the CoinGecko API key out of Info.plist (which resolves $(COINGECKO_API_KEY)
         // from Config.xcconfig at build time) and, if present, attach it as the auth header
         // CoinGecko's demo-tier API expects.
-        if let apiKey = Bundle.main.object(forInfoDictionaryKey: "CoinGeckoAPIKey") as? String {
+        if let apiKey = Bundle.main.object(forInfoDictionaryKey: "CoinGeckoAPIKey") as? String, !apiKey.isEmpty {
             request.setValue(apiKey, forHTTPHeaderField: "x-cg-demo-api-key")
         }
 
